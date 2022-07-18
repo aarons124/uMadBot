@@ -4,7 +4,7 @@
   "description": "Updated version of MadBot#0015, a discord bot.",
   "main": "index.js",
   "scripts": {
-    "test": "node -r dotenv/config index.js"
+    "start": "node -r dotenv/config index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/aarons124/uMadBot#readme",
   "dependencies": {
-    "discord.js": "^14.0.1"
+    "@discordjs/opus": "0.8.0",
+    "@discordjs/rest": "1.0.0",
+    "discord-api-types": "0.36.2",
+    "discord.js": "14.0.1",
+    "mongoose": "6.4.4"
   }
 }
